@@ -64,7 +64,6 @@ nav ul li a {
 }
 
 #player {
-  background-image: url("../images/cisum.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -86,32 +85,35 @@ nav ul li a {
   transition: 0.5s;
 }
 
-section#main_section {
+section#main-section {
   flex: 100%;
   width: 100%;
   overflow: auto;
   display: flex;
   color: var(--text-color);
+  font-family: "Jua", sans-serif;
 }
 
-#main_section aside {
+#main-section aside {
   flex: 1px;
   overflow: auto;
   background-color: var(--background-color);
+  font-family: "Jua", sans-serif;
 }
 
 /* 오른쪽 메뉴 동영상 크기 줄이기 */
-#right_menu p {
+#right-menu p {
   width: 80%;
   height: 50%;
   justify-items: center;
   text-align: center;
 }
 
-#main_section section {
+#main-section section {
   flex: 3px;
   overflow: auto;
   background-color: var(--background-color2);
+  font-family: "Jua", sans-serif;
 }
 
 footer {
@@ -124,7 +126,7 @@ footer address {
   background-color: inherit;
   color: inherit;
   padding: 1rem;
-  font-family: "Nanum Myeongjo", serif;
+  font-family: "Jua", sans-serif;
 }
 
 footer address a {
